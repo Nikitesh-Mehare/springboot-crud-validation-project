@@ -1,11 +1,11 @@
-#CRUD Operation and Validation using Spring Boot REST API
+# CRUD Operation and Validation using Spring Boot REST API
 
-##Project Overview
+## Project Overview
 
 This project demonstrates the implementation of a RESTful CRUD API using Spring Boot. It provides complete Create, Read, Update, and Delete operations for managing user information. The application uses MySQL as the database and validates user input before storing data.
 The APIs were tested using Postman, ensuring proper request handling and response generation.
 
-##Features
+## Features
 1. Create User
 2. Get All Users
 3. Get User By ID
@@ -17,7 +17,7 @@ The APIs were tested using Postman, ensuring proper request handling and respons
 9. RESTful API Design
 10. Tested using Postman
 
-##Technologies Used
+## Technologies Used
 Java 17
 Spring Boot
 Spring Web
@@ -30,7 +30,7 @@ Lombok
 Bean Validation (Jakarta Validation)
 Eclipse / IntelliJ IDEA
 
-##Project Structure
+## Project Structure
 src
 │
 ├── controller
@@ -41,7 +41,7 @@ src
 ├── dto (if used)
 └── application.properties
 
-##API Endpoints
+## API Endpoints
 Method	Endpoint	Description
 POST	/users	Create User
 GET	/users	Get All Users
@@ -49,7 +49,7 @@ GET	/users/{id}	Get User By ID
 PUT	/users/{id}	Update User
 DELETE	/users/{id}	Delete User
 
-##Validation
+## Validation
 The project validates user input before saving data.
 Example validations:
 Name cannot be empty
@@ -58,17 +58,17 @@ Age should be greater than 18
 Required fields cannot be null
 Exception Handling
 
-##Custom exception handling is implemented using:
+## Custom exception handling is implemented using:
 Global Exception Handler
 User Not Found Exception
 Validation Exception
 This ensures meaningful error responses.
 
-##Database
+## Database
 Database: MySQL
 User information is stored permanently using Spring Data JPA and Hibernate.
 
-#Testing
+## Testing
 All REST APIs were tested using Postman.
 The following operations were verified:
 POST Request
@@ -85,7 +85,7 @@ Pagination & Sorting
 Authentication & Authorization
 Learning Outcomes
 
-##Through this project, I learned:
+## Through this project, I learned:
 REST API development
 Spring Boot Architecture
 CRUD Operations
@@ -95,7 +95,7 @@ Exception Handling
 Spring Data JPA
 API Testing using Postman
 
-##Technologies Used:
+## Technologies Used:
 Java
 Spring Boot
 Spring Web
@@ -109,9 +109,9 @@ Postman
 REST API
 
 
-##What You Performed (GitHub Description):
+## What You Performed (GitHub Description):
 
-###Project Implementation:
+### Project Implementation:
 Developed a RESTful CRUD API using Spring Boot.
 Implemented Create, Read, Update, and Delete operations.
 Connected the application with MySQL using Spring Data JPA.
