@@ -19,15 +19,25 @@ The APIs were tested using Postman, ensuring proper request handling and respons
 
 ## Technologies Used
 Java 17
+
 Spring Boot
+
 Spring Web
+
 Spring Data JPA
+
 Hibernate
+
 MySQL
+
 Maven
+
 Postman
+
 Lombok
+
 Bean Validation (Jakarta Validation)
+
 Eclipse / IntelliJ IDEA
 
 ## Project Structure
@@ -38,30 +48,34 @@ src
 ├── repository
 ├── entity
 ├── exception
-├── dto (if used)
+├── dto 
 └── application.properties
 
 ## API Endpoints
-Method	Endpoint	Description
-POST	/users	Create User
-GET	/users	Get All Users
-GET	/users/{id}	Get User By ID
-PUT	/users/{id}	Update User
-DELETE	/users/{id}	Delete User
+
+1.POST	  /users	Create User
+2.GET   	/users	Get All Users
+3.GET	    /users/{id}	Get User By ID
+4.PUT	    /users/{id}	Update User
+5.DELETE	/users/{id}	Delete User
 
 ## Validation
 The project validates user input before saving data.
+
 Example validations:
-Name cannot be empty
-Email must be valid
-Age should be greater than 18
-Required fields cannot be null
-Exception Handling
+1.Name cannot be empty
+2.Email must be valid
+3.Age should be greater than 18
+4.Required fields cannot be null
+5.Exception Handling
 
 ## Custom exception handling is implemented using:
 Global Exception Handler
+
 User Not Found Exception
+
 Validation Exception
+
 This ensures meaningful error responses.
 
 ## Database
@@ -107,9 +121,6 @@ Lombok
 Jakarta Bean Validation
 Postman
 REST API
-
-
-## What You Performed (GitHub Description):
 
 ### Project Implementation:
 Developed a RESTful CRUD API using Spring Boot.
