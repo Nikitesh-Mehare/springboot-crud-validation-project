@@ -43,40 +43,44 @@ Eclipse / IntelliJ IDEA
 ## Project Structure
 src
 │
+
 ├── controller
+
 ├── service
+
 ├── repository
+
 ├── entity
+
 ├── exception
+
 ├── dto 
+
 └── application.properties
 
 ## API Endpoints
 
-1.POST	  /users	Create User
-2.GET   	/users	Get All Users
-3.GET	    /users/{id}	Get User By ID
-4.PUT	    /users/{id}	Update User
-5.DELETE	/users/{id}	Delete User
+1. POST	  /users	Create User
+2. GET   	/users	Get All Users
+3. GET	    /users/{id}	Get User By ID
+4. PUT	    /users/{id}	Update User
+5. DELETE	/users/{id}	Delete User
 
 ## Validation
 The project validates user input before saving data.
 
 Example validations:
-1.Name cannot be empty
-2.Email must be valid
-3.Age should be greater than 18
-4.Required fields cannot be null
-5.Exception Handling
+1. Name cannot be empty
+2. Email must be valid
+3. Age should be greater than 18
+4. Required fields cannot be null
+5. Exception Handling
 
 ## Custom exception handling is implemented using:
-Global Exception Handler
-
-User Not Found Exception
-
-Validation Exception
-
-This ensures meaningful error responses.
+1. Global Exception Handler
+2. User Not Found Exception
+3. Validation Exception
+4. This ensures meaningful error responses.
 
 ## Database
 Database: MySQL
