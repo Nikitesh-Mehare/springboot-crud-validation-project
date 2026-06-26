@@ -18,30 +18,22 @@ The APIs were tested using Postman, ensuring proper request handling and respons
 10. Tested using Postman
 
 ## Technologies Used
-Java 17
-
-Spring Boot
-
-Spring Web
-
-Spring Data JPA
-
-Hibernate
-
-MySQL
-
-Maven
-
-Postman
-
-Lombok
-
-Bean Validation (Jakarta Validation)
+1. Java 17
+2. Spring Boot
+3. Spring Web
+4. Spring Data JPA
+5. Hibernate
+6. MySQL
+7. Maven
+8. Postman
+9. Lombok
+10. Bean Validation (Jakarta Validation)
 
 Eclipse / IntelliJ IDEA
 
 ## Project Structure
 src
+
 │
 
 ├── controller
@@ -94,7 +86,8 @@ GET Request
 PUT Request
 DELETE Request
 Validation Errors
-Future Improvements
+
+## Future Improvements
 Spring Security with JWT
 Swagger/OpenAPI Documentation
 Docker Containerization
